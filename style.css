@@ -57,7 +57,8 @@ a {
 }
 
 .banner-text p,
-.right-links {
+.right-links,
+.call-action {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -79,4 +80,17 @@ button,
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+}
+
+button {
+    color: #E5E7EB;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 900;
+}
+
+#call-action-btn {
+    border: 3px solid #E5E7EB;
+
 }
