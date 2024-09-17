@@ -21,6 +21,11 @@ a {
     align-items: center;
 }
 
+.header h1 {
+    font-size: 24px;
+    color: #f9FAF8;
+}
+
 .right-links {
     display: flex;
     gap: 16px;
@@ -45,3 +50,33 @@ a {
     width: 450px;
 }
 
+.banner-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.banner-text p,
+.right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button,
+.call-action {
+    background-color: #3882F6;
+}
+
+.information h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
